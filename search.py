@@ -11,8 +11,9 @@
 from urllib import urlencode
 from urllib2 import *
 kwrd="the odyssey"
+stype="X"
 values=""
-values=values+urlencode({"searchtype" : "X"})
+values=values+urlencode({"searchtype" : stype})
 values=values+"&"+urlencode({"SORT" : "D"})
 values=values+"&"+urlencode({"searcharg" : kwrd})
 content=urlopen(Request("http://biblion.exeter.edu/search/"+"?"+values)).read()
