@@ -3,9 +3,8 @@ PEABiblion
 
 ECC Exeter Biblion Project
 TODO:
- - Email Ms. Scanlon
- - Learn about Biblion database formatting
- - Make Everything else
+ - Design Web Layout (together)
+ - 
 
 Long Term Goals:
  - Improve website look and user interface for search
