@@ -12,3 +12,17 @@ Long Term Goals:
  - Ensure generic template shared by all books
  - Comment/rating system
  - Fix login?
+
+
+----------------------
+Narrow Search By:
+ - Checked Out
+ - Material Type (cd, book, etc)
+ - Star Rating
+ - Subject
+ - Fiction vs Nonfiction
+ - 
+ 
+
+----------------------
+Reject books without status.
