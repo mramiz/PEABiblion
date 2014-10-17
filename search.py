@@ -30,7 +30,7 @@ values=values+"&"+urlencode({"searcharg" : kwrd})
 content=urlopen(Request("http://biblion.exeter.edu/search/"+"?"+values)).read()
 content=findall('<div class="briefcitDetail">(.+?)&nbsp;</div>', content, DOTALL)
 for book in content:
-        (biblink, title, author)=findall('<a href="(.+?)">(.*?)</a>.*?<br.*?>(.+?)<', book, DOT$
+        (biblink, title, author)=findall('<a href="(.+?)">(.*?)</a>.*?<br.*?>(.+?)<', book, DOTALL)[0]
         biblink="http://biblion.exeter.edu/"+biblink
         biblink=biblink.replace("\r", "").replace("\n", "")
         title=title.replace("\r", "").replace("\n", "")
