@@ -31,7 +31,7 @@ def printb(biblink, title, author, status):
         print "Status: "+status
         print "\n\n\n"
 
-kwrd="a separate peace"
+kwrd="the odyssey"
 stype="X"
 values=""
 values=values+urlencode({"searchtype" : stype})
